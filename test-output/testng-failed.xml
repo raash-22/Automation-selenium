@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Simple HTML-XML Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Simple HTML-XML test(failed)">
+    <classes>
+      <class name="com.tests.FlipkartTests">
+        <methods>
+          <include name="verifyFirstResult"/>
+          <include name="cleanup"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.tests.FlipkartTests -->
+    </classes>
+  </test> <!-- Simple HTML-XML test(failed) -->
+</suite> <!-- Failed suite [Simple HTML-XML Suite] -->
